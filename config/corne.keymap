@@ -29,14 +29,15 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            label = "DEF";
-            bindings = <
-&kp ESC  &kp Q  &kp W  &kp F             &kp P       &kp B        &kp J     &kp L       &kp U          &kp Y    &kp EQUAL  &kp AT
-&kp SQT  &kp A  &kp R  &kp S             &hm LCMD T  &kp G        &kp M     &hm LCMD N  &kp E          &kp I    &kp O      &kp RET
-&kp TAB  &kp Z  &kp X  &kp C             &kp D       &kp V        &kp K     &kp H       &kp COMMA      &kp DOT  &kp SEMI   &kp FSLH
-                       &kp LEFT_CONTROL  &kp LSHFT   &kp SPACE    &kp BSPC  &to 1       &to NUMBERS_L
-            >;
+    default_layer {
+                label = "DEF";
+                bindings = <
+    &kp ESC  &kp Q  &kp W  &kp E             &kp R       &kp T        &kp Y     &kp U       &kp I          &kp O    &kp EQUAL  &kp AT
+    &kp SQT  &kp A  &kp S  &kp D             &hm LCMD F  &kp G        &kp H     &hm LCMD J  &kp K          &kp L    &kp SEMI   &kp RET
+    &kp TAB  &kp Z  &kp X  &kp C             &kp V       &kp B        &kp N     &kp M       &kp COMMA      &kp DOT  &kp SLASH  &kp FSLH
+                           &kp LEFT_CONTROL  &kp LSHFT   &kp SPACE    &kp BSPC  &to 1       &to NUMBERS_L
+                >;
+
         };
 
         symbols_layer {
